@@ -1,0 +1,30 @@
+﻿@model ContatoModel
+<div class="text-center">
+
+   
+
+<h1 class="display-4"  > Editar de contatos</h1>
+    
+
+
+</div>
+
+
+<form asp-action="Alterar" asp-controller="Contato" method="post">
+    <input type="hidden" asp-for="Id" />
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="text" asp-for="Nome" class="form-control"  placeholder="Digite seu contato">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email </label>
+    <input type="text" asp-for="Email" class="form-control"  placeholder="seu email">
+  </div>
+  <div class="mb-3">
+    <label for="celular" class="form-label">Celular </label>
+    <input type="text" asp-for="Celular" class="form-control"  placeholder="seu celular">
+  </div>
+ 
+  <button type="submit" class="btn btn-primary btn-block" >Atualizar</button>
+  <a class="btn btn-secondary btn-block" asp-controller="Contator" asp-action="Index">Voltar</a>
+</form>
