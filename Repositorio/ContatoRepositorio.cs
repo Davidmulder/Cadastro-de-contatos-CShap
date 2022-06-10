@@ -25,6 +25,10 @@ namespace Cadastro_de_contatos.Repositorio
             return _bancoContext.Contatos.ToList(); // busca todos da tabela
         }
 
+
+      
+
+
         public ContatoModel Adicionar(ContatoModel contato)
         {
             _bancoContext.Contatos.Add(contato);  // cadastra do conteudo
@@ -54,5 +58,7 @@ namespace Cadastro_de_contatos.Repositorio
             return true;
 
         }
+
+        
     }
 }

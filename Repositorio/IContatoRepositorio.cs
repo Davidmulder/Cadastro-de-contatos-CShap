@@ -8,6 +8,8 @@ namespace Cadastro_de_contatos.Repositorio
         ContatoModel ListaId(int id);
         List<ContatoModel> BuscaTodos(); // pega todos o dados cadastrados da tabela contatos
 
+     
+
 
         ContatoModel Adicionar(ContatoModel contato);
 
