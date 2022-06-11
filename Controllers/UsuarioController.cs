@@ -1,10 +1,12 @@
-﻿using Cadastro_de_contatos.Models;
+﻿using Cadastro_de_contatos.Filters;
+using Cadastro_de_contatos.Models;
 using Cadastro_de_contatos.Repositorio;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace Cadastro_de_contatos.Controllers
 {
+    [PaginaParaAdmin] // somente para admin
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepositorio _usuarioRepositorio;

@@ -1,4 +1,5 @@
-﻿using Cadastro_de_contatos.Models;
+﻿using Cadastro_de_contatos.Filters;
+using Cadastro_de_contatos.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Cadastro_de_contatos.Controllers
 {
+    [PaginaParaUsuarioLogado]
     public class HomeController : Controller
     {      
         public IActionResult Index()
