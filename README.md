@@ -3,7 +3,7 @@
   <img src="https://avatars.githubusercontent.com/u/34238744?v=4" alt="TinDev" width="120">
 <br>
 <br>
-NetMoveis
+CShap
 </h1>
 
 <p align="center">Sistema de cadastro de Usuarios e Contatos </p>
@@ -34,10 +34,10 @@ NetMoveis
 
 ## Tecnologia usada
 
-Usado do modelo de framework, no servidor linux e windows
+Usado do modelo de framework Visual studio, padrão MVC
 
 - ⚛️ **ASP** — ASP classico para servidor windows
--  💹 **C#** — para framework visulstudio 2020
+-  💹 **C#** — para framework visual studio 2020
 -  💹 **C#** — Banco de dados Sql server
 
 
